@@ -10,7 +10,7 @@ public class NaturalDigits {
             if(i == 2 || i==3 || i==5){
                 integers.add(i);
             }
-            if((i%2!=0 && i!=2 && i%3!=0 && i!=3 && i%5!=0 && i!=5)){
+            if(i % 2 != 0 && i % 3 != 0 && i % 5 != 0){
                 integers.add(i);
             }
         }
